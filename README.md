@@ -132,4 +132,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Name -Saurabh kumar singh 
 
-Project Link: [https://github.com/yourusername/ai-chat-assistant](https://github.com/yourusername/ai-chat-assistant) 
+Project Link: https://resplendent-jalebi-af6a95.netlify.app/
