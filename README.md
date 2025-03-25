@@ -130,6 +130,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
+Name -Saurabh kumar singh 
 
 Project Link: [https://github.com/yourusername/ai-chat-assistant](https://github.com/yourusername/ai-chat-assistant) 
