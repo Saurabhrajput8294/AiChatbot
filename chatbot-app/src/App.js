@@ -44,19 +44,19 @@ function App() {
 
             let response;
             if (image) {
-                response = await axios.post('http://localhost:5000/chat', formData, {
+                response = await axios.post('https://aichatbot-h6dv.onrender.com/chat', formData, {
                     headers: { 'Content-Type': 'multipart/form-data' },
                 });
             } else if (file) {
-                const uploadRes = await axios.post('http://localhost:5000/upload', formData, {
+                const uploadRes = await axios.post('https://aichatbot-h6dv.onrender.com/upload', formData, {
                     headers: { 'Content-Type': 'multipart/form-data' },
                 });
-                response = await axios.post('http://localhost:5000/chat', { 
+                response = await axios.post('https://aichatbot-h6dv.onrender.com/chat', { 
                     message: input,
                     attachment: uploadRes.data.fileUrl
                 });
             } else {
-                response = await axios.post('http://localhost:5000/chat', { message: input });
+                response = await axios.post('https://aichatbot-h6dv.onrender.com/chat', { message: input });
             }
 
             setMessages([...newMessages, { 
